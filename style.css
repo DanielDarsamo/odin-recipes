@@ -1,0 +1,24 @@
+h1{
+color: #ff00c8;;
+background-color:rgb(15, 86, 136);
+text-align: center;
+}
+.list, .recipe {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: bold;
+    color: white;
+    background-color: rgb(30, 171, 81);
+    text-align: center;
+}
+#one{
+color:#ff00c8;
+}
+#two{
+    color:yellow;
+}
+#three{
+    color:#ff8204;
+}
+
+
