@@ -1,0 +1,47 @@
+body{
+    background-color: aquamarine;
+
+}
+h1{
+    color: rgb(7, 7, 171);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:36px;
+    text-align:center;   
+}
+h2{
+    color:coral;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:28px;
+    text-align:center;   
+
+}
+#torotoro{
+width:auto;
+height: auto; 
+background-color: black;
+
+}
+
+p{
+    font-size:20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+    
+}
+ul{
+    font-size:20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+    font-style: italic;
+   
+} 
+.steps{
+ color:blueviolet;
+ font-size:22px;
+ font-family:sans-serif;
+ font-style: italic;
+ font-weight: 800;
+}
+
+
+    
+
+
