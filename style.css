@@ -1,3 +1,11 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0; 
+
+}
+
+
 h1{
 color: #ff00c8;;
 background-color:rgb(15, 86, 136);
@@ -13,9 +21,13 @@ text-align: center;
 }
 #one{
 color:#ff00c8;
+ border: 3px dotted; 
+ padding: 30px;
+ margin: 30px; 
 }
 #two{
     color:yellow;
+
 }
 #three{
     color:#ff8204;
