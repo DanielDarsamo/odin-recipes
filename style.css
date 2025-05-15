@@ -4,33 +4,44 @@
     padding:0; 
 
 }
-
-
-h1{
-color: #ff00c8;;
-background-color:rgb(15, 86, 136);
-text-align: center;
+a{
+    text-decoration: none;
+    color: inherit;
 }
-.list, .recipe {
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font: bold;
-    color: white;
-    background-color: rgb(30, 171, 81);
+h1{
+    font-family:'Courier New', Courier, monospace;
+    color: #59a9e6;
     text-align: center;
 }
-#one{
-color:#ff00c8;
- border: 3px dotted; 
- padding: 30px;
- margin: 30px; 
-}
-#two{
-    color:yellow;
+.description{
+    font-family: Arial, sans-serif,'Times New Roman', Times, serif;
+    text-align: center;
+    /* align-items: center; */
 
 }
-#three{
-    color:#ff8204;
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    height: 100vh;
+   
 }
-
-
+.item {
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #9e7c46;
+    border-color: black ;
+    border: 2px solid;
+    border-radius: 10px;   
+    gap:10px;
+   padding: 30px;
+   margin: 30px;
+   cursor:grab;
+}
+.item:hover{
+    background-color: #a3d31f;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(196, 16, 16, 0.5);
+}
