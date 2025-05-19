@@ -21,22 +21,22 @@ h1{
 }
 .container{
     display: flex;
-    justify-content: center;
-    align-items:flex-start;
-    height: 100vh;
-   
-}
-.item {
+      justify-content:center;
+    /* align-items:center; */
+    height: 24px;
     flex-wrap:wrap;
     flex:1;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+     gap:10px;
+    
+}
+.item {
+  
+    justify-content: flex-start;
     background-color: #9e7c46;
     border-color: black ;
     border: 2px solid;
     border-radius: 10px;   
-    gap:10px;
+  
    padding: 30px;
    margin: 30px;
    cursor:grab;
